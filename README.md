@@ -22,6 +22,8 @@ Also, this document will collect written details that I've found difficult to gr
 - [ ] Use static functions rather than `new` (FactoryIdiom)
 - [ ] Create a class that accepts a parameter or environment variable to load profile or section of the config
 - [ ] Explore configFactory.systemEnvironment()
+- [ ] Parsing and transforming between environment variables and config params (as nconf does)
+- [ ] Encryption?
 
 
 ## Examples
@@ -35,6 +37,8 @@ Illustrates how to read the configuration properties using the default mechanism
 ### [02 &mdash; Waterfall Configuration](./02-config-waterfall/)
 Illustrates how to read the configuration properties using the default mechanism of the *Config* library
 
-### [02 &mdash; Waterfall Configuration](./02-config-waterfall/)
-Illustrates how to read the configuration properties using the default mechanism of the *Config* library
+### [03 &mdash; Customizing Config Filename](./03-customizing-config-filename/)
+Illustrates how to customize the location and name of the file that contains the application configuration
 
+### [04 &mdash; Customizing Waterfall Config](./04-customizing-waterfall-config/)
+Illustrates how to merge config trees to implement a waterfall configuration in which a precedence is established between different configuration sources.

@@ -20,6 +20,7 @@
     <module>01-simple-config-wrapper</module>
     <module>02-config-waterfall</module>
     <module>03-customizing-config-filename</module>
+    <module>04-customizing-waterfall-config</module>    
   </modules>
 
   <properties>
