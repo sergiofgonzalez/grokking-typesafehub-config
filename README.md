@@ -19,7 +19,7 @@ Also, this document will collect written details that I've found difficult to gr
 - [X] How to support profiles
 - [X] How to use different filenames than provided
 - [X] Explore what the doc says: A config can be created with the parser methods in ConfigFactory or built up from any file format or data source you like with the methods in `ConfigValueFactory`.
-- [ ] Use static functions rather than `new` (FactoryIdiom)
+- [X] Use static functions rather than `new` (FactoryIdiom)
 - [ ] Create a class that accepts a parameter or environment variable to load profile or section of the config
 - [X] Explore configFactory.systemEnvironment()
 - [ ] Parsing and transforming between environment variables and config params (as nconf does)
