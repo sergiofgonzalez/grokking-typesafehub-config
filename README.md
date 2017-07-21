@@ -24,6 +24,7 @@ Also, this document will collect written details that I've found difficult to gr
 - [ ] Explore configFactory.systemEnvironment()
 - [ ] Parsing and transforming between environment variables and config params (as nconf does)
 - [ ] Encryption?
+- [ ] license
 
 
 ## Examples
@@ -42,3 +43,6 @@ Illustrates how to customize the location and name of the file that contains the
 
 ### [04 &mdash; Customizing Waterfall Config](./04-customizing-waterfall-config/)
 Illustrates how to merge config trees to implement a waterfall configuration in which a precedence is established between different configuration sources.
+
+### [05 &mdash; Hello YAML Config](./05-hello-yaml-config/)
+Illustrates how to create a `Config` object from a YAML file.

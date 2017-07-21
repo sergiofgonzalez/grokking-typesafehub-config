@@ -1,0 +1,14 @@
+value: &anchor_value 55
+
+root:
+  name: Jason Isaacs
+
+dev:
+  message: "This message was set on application.yml"
+  val: *anchor_value
+  name: ${root.name}  #this will be better
+
+  
+age: 25
+
+age_alias: ${age}  
