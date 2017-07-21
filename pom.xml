@@ -21,7 +21,9 @@
     <module>02-config-waterfall</module>
     <module>03-customizing-config-filename</module>
     <module>04-customizing-waterfall-config</module>
-    <module>05-hello-yaml-config</module>    
+    <module>05-hello-yaml-config</module>
+    <module>06-spring-like-config-profiles</module>
+    <module>07-singleton-config</module>
   </modules>
 
   <properties>
