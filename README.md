@@ -49,3 +49,6 @@ Illustrates how to create a `Config` object from a YAML file.
 
 ### [06 &mdash; Spring-like Profiles](./06-spring-like-profiles/)
 Illustrates how to restrict the loading of configuration properties only to a certain node of the whole configuration properties, emulating the same behavior as Spring does with profiles.
+
+### [07 &mdash; Singleton Config](./07-singleton-config/)
+Illustrates how to create a singleton (eagerly-loaded singleton) to hold the configuration.
