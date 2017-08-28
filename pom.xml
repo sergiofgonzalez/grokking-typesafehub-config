@@ -24,6 +24,7 @@
     <module>05-hello-yaml-config</module>
     <module>06-spring-like-config-profiles</module>
     <module>07-singleton-config</module>
+    <module>08-config-hardening</module>
   </modules>
 
   <properties>
