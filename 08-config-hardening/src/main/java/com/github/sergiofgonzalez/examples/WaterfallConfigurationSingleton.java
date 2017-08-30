@@ -84,15 +84,6 @@ public class WaterfallConfigurationSingleton {
 			throw new IllegalStateException("Could not initialize the encryption scheme", e);
 		}		
 		
-//		try (InputStream keystoreStream = WaterfallConfigurationSingleton.class.getClassLoader().getResourceAsStream()) {
-//			Yaml yaml = new Yaml();
-//			props = (Map<String,?>) yaml.load(in);
-//			LOGGER.debug("Properties from YAML loaded! -> {}", props);
-//		} catch (IOException e) {
-//			LOGGER.error("Could not read configuration as resource", e);
-//			throw new IllegalStateException(e);
-//		}
-
 		Duration duration = Duration.between(start, Instant.now());
 		LOGGER.debug("Config initialization took {}", duration);
 	}

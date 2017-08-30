@@ -20,10 +20,10 @@ Also, this document will collect written details that I've found difficult to gr
 - [X] How to use different filenames than provided
 - [X] Explore what the doc says: A config can be created with the parser methods in ConfigFactory or built up from any file format or data source you like with the methods in `ConfigValueFactory`.
 - [X] Use static functions rather than `new` (FactoryIdiom)
-- [ ] Create a class that accepts a parameter or environment variable to load profile or section of the config
+- [X] Create a class that accepts a parameter or environment variable to load profile or section of the config
 - [X] Explore configFactory.systemEnvironment()
-- [ ] Parsing and transforming between environment variables and config params (as nconf does)
-- [ ] Encryption?
+- [X] Parsing and transforming between environment variables and config params (as nconf does)
+- [X] Encryption?
 - [X] license
 
 
@@ -52,3 +52,6 @@ Illustrates how to restrict the loading of configuration properties only to a ce
 
 ### [07 &mdash; Singleton Config](./07-singleton-config/)
 Illustrates how to create a singleton (eagerly-loaded singleton) to hold the configuration.
+
+### [08 &mdash; Config hardening](./08-config-hardening/)
+Illustrates how to enable encryption on sensitive config entries.
